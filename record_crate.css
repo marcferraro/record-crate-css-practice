@@ -15,17 +15,18 @@ body {
 
 .record {
     width: 400px;
-    height: 400px;
+    height: auto;
     background-color: burlywood;
-}
-
-.record:hover .card__content {
-    transform: rotate(90deg);
 }
 
 .card__content {
     text-align: center;
     position: relative;
+    padding: 5em
+}
+
+.record:hover .card__content {
+    transform: rotate(90deg);
 }
 
 .card__front,
