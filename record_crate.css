@@ -27,7 +27,7 @@ body {
 }
 
 .record:hover .card__content {
-    transform: rotateY(90deg);
+    transform: rotateY(.5turn);
 }
 
 .card__front,
