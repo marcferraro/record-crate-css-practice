@@ -1,3 +1,9 @@
 .title {
     color: red
 }
+
+.record {
+    width: 20rem;
+    height: 20rem;
+    background-color: indianred;
+}
