@@ -22,7 +22,8 @@ body {
 .card__content {
     text-align: center;
     position: relative;
-    padding: 5em
+    padding: 5em;
+    transition: transform 3s;
 }
 
 .record:hover .card__content {
