@@ -15,7 +15,6 @@ body {
 
 .record {
     width: 400px;
-    height: auto;
 }
 
 .card__content {
@@ -38,9 +37,17 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 2em;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
 }
 
-.card__front {
-    background: red;
-    transform: rotateY(.25turn);
+.card__title {
+    font-size: 3rem;
+    transform: translateZ(200px)
+}
+
+.card__back {
+    transform: rotateY(.5turn);
+    background: lightblue;
 }
