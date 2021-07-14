@@ -9,8 +9,8 @@
 
 body {
     height: 100vh;
-    display: grid;
-    place-items: center;
+    /* display: grid; */
+    /* place-items: center; */
     perspective: 500px;
 }
 
@@ -23,13 +23,14 @@ body {
     text-align: center;
     position: relative;
     padding: 5em;
-    transition: transform 3s;
+    transition: transform .5s;
     background: burlywood;
     transform-style: preserve-3d;
     border-style: solid;
 }
 
 .record:hover .card__content {
+    /* transform: rotateY(.5turn) rotateX(-60deg) translateY(50px); */
     transform: translateY(-50px);
 }
 
