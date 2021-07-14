@@ -15,7 +15,7 @@ body {
 }
 
 .record {
-    width: 400px;
+    /* width: 400px; */
     transform: rotateX(320deg);
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .record:hover .card__content {
-    transform: rotateY(.5turn);
+    transform: rotateY(.5turn) rotateX(-60deg);
 }
 
 .card__front,
@@ -43,12 +43,11 @@ body {
     padding: 2em;
     backface-visibility: hidden;
     transform-style: preserve-3d;
-    perspective: top;
 }
 
 .card__title {
     font-size: 3rem;
-    /* transform: translateZ(200px) */
+    transform: translateZ(200px)
 }
 
 .card__back {
