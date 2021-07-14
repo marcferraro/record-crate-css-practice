@@ -15,6 +15,7 @@ body {
 
 .record {
     width: 400px;
+    transform: rotateX(320deg);
 }
 
 .card__content {
@@ -28,7 +29,7 @@ body {
 }
 
 .record:hover .card__content {
-    transform: rotateY(.5turn);
+    transform: rotateY(.23turn);
 }
 
 .card__front,
@@ -41,6 +42,7 @@ body {
     padding: 2em;
     backface-visibility: hidden;
     transform-style: preserve-3d;
+    perspective: 200px;
 }
 
 .card__title {
