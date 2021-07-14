@@ -24,6 +24,7 @@ body {
     transition: transform 3s;
     background: burlywood;
     transform-style: preserve-3d;
+    border-style: solid;
 }
 
 .record:hover .card__content {
