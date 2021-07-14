@@ -15,14 +15,17 @@ body {
 }
 
 .record {
-    /* width: 400px; */
+    /* width: 400px;
+    height: 400px; */
     transform: rotateX(320deg);
 }
 
 .card__content {
+    width: 400px;
+    height: 400px;
     text-align: center;
     position: relative;
-    padding: 5em;
+    /* padding: 5em; */
     transition: transform .5s;
     background: burlywood;
     transform-style: preserve-3d;
