@@ -30,7 +30,7 @@ body {
 }
 
 .record:hover .card__content {
-    transform: rotateY(.5turn) rotateX(-60deg);
+    transform: translateY(-50px);
 }
 
 .card__front,
