@@ -11,11 +11,12 @@ body {
     height: 100vh;
     display: grid;
     place-items: center;
-    perspective: 50em;
+    perspective: 500px;
 }
 
 .record {
     width: 400px;
+    transform: rotateX(320deg);
 }
 
 .card__content {
