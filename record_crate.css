@@ -16,10 +16,13 @@ body {
     perspective: 500px;
 }
 
+.crate {
+    margin-left: 50%;
+}
+
 .record {
     /* width: 400px;
     height: 400px; */
-    margin-left: 50%;
     transform: rotateX(320deg);
 }
 
