@@ -2,10 +2,10 @@
     color: mediumorchid
 }
 
-*, *::before, *::after {
+/* *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
-}
+} */
 
 /* width affects the angle the records are viewed from, especially as window is resized */
 body {
@@ -19,6 +19,7 @@ body {
 .record {
     /* width: 400px;
     height: 400px; */
+    margin-left: 50%;
     transform: rotateX(320deg);
 }
 
