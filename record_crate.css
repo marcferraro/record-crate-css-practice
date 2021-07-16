@@ -13,19 +13,19 @@ body {
     width: 100vh;
     /* display: grid; */
     /* place-items: center; */
-    /* perspective: 500px; */
+    perspective: 500px;
     background-color: darksalmon;
 }
 
 .crate {
-    margin-left: 50%;
+    margin-left: 200px;
     margin-top: 10%;
 }
 
 .record {
     width: 200px;
     height: 200px;
-    /* transform: rotateX(320deg); */
+    transform: rotateX(320deg);
 }
 
 .card__content {
