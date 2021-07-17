@@ -26,6 +26,9 @@ body {
     width: 200px;
     height: 200px;
     transform: rotateX(320deg);
+    display: inline-block;
+    margin-right: -100px;
+
 }
 
 .card__content {
