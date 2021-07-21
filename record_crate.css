@@ -20,8 +20,9 @@ body {
 
 .crate {
     border-style: solid;
-    /* margin-left: 200px;
-    margin-top: 10%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
 
 }
 
