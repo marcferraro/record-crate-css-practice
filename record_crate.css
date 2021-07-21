@@ -18,8 +18,10 @@ body {
 }
 
 .crate {
+    border-style: solid;
     /* margin-left: 200px;
     margin-top: 10%; */
+
 }
 
 .record {
