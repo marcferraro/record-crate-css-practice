@@ -14,6 +14,7 @@ body {
     /* display: grid; */
     /* place-items: center; */
     perspective: 500px;
+    border-style: solid;
     background-color: darksalmon;
 }
 
