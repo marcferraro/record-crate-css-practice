@@ -10,7 +10,7 @@
 /* width affects the angle the records are viewed from, especially as window is resized */
 body {
     height: 100vh;
-    width: 100vh;
+    /* width: 100%; */
     /* display: grid; */
     /* place-items: center; */
     perspective: 500px;
