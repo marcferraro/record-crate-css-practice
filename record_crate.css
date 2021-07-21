@@ -27,7 +27,7 @@ body {
 }
 
 .record {
-    width: 200px;
+    width: 100%;
     height: 200px;
     transform: rotateX(320deg);
     display: inline-block;
